@@ -1,10 +1,12 @@
 Additional Keyboard
 =======
 
-Node.js-script for Linux, that adds support of the second keyboard as a usual button panel.
+Node.js script for Linux, that adds support of the second keyboard as a usual button panel.
 
 
 ### How to use ###
+
+You need to have pre-installed Node.js and package "serialport".
 
 #### 1. Fill key_bindings.cfg file like so: ####
 ```
@@ -35,7 +37,7 @@ Where possible key names are (it's only for numpad, but you can extend this list
 
 #### 2. Run the script: ####
 
-> node path_to/additional_keyboard.js device [interface_type]
+> sudo node path_to/additional_keyboard.js device [interface_type]
 
 - device - your keyboard from /dev/input/; it's recommended to refer to device through /dev/input/by-path/ directory
 - interface_type - type of a keyboard interface; can be "ps2" or "usb"; default is "ps2"
