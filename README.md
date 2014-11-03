@@ -33,7 +33,7 @@ Where possible key names are (it's only for numpad, but you can extend this list
   - /
   - numlock
 
-#### 1. Run the script: ####
+#### 2. Run the script: ####
 
 > node path_to/additional_keyboard.js device [interface_type]
 
